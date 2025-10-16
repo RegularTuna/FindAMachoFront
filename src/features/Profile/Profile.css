@@ -1,0 +1,72 @@
+.title{
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+.lookingForSection{
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    padding:10px 0px;
+}
+.lookingForTags{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.lookingForTagsIndividualContainer{
+    width: 40%;
+    text-align: center;
+}
+
+
+
+
+.contactsSection{
+    background-color: rgb(189, 179, 37);
+    width: 100%;
+    text-align: center;
+    padding:10px 0px;
+    
+}
+
+.contactsContainer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.contactIndividualContainer{
+    padding: 1px;
+}
+
+
+@media (min-width: 1024px) {
+
+    .lookingForTags{
+    display: flex;
+    flex-wrap: nowrap;
+    }
+
+  .lookingForTags > * {
+    width: 100%;
+    }
+
+
+    .contactsContainer{
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        
+    }
+
+}
